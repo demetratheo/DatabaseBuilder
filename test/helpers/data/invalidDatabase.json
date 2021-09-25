@@ -1,0 +1,20 @@
+[
+  {
+     "name":"payment_request",
+     "invalid":"column",
+     "columns":[
+        {
+           "name":"id",
+           "foreign_key":null
+        },
+        {
+           "name":"due_date",
+           "foreign_key":null
+        },
+        {
+           "name":"created_by_user",
+           "foreign_key":"users.id"
+        }
+     ]
+  }
+]
